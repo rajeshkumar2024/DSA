@@ -189,7 +189,7 @@ node *createSortedList(node *head, int data) {
     } else {
         node *tmp = head;
         while(tmp->next != NULL) {
-            if(data <= tmp->next->data) {
+            if(data < tmp->next->data) {
                 break;
             }
             tmp = tmp->next;
