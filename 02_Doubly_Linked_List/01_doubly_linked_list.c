@@ -1,3 +1,4 @@
+//Fixed some lines in the code
 #include<stdio.h>
 #include<stdlib.h>
 
